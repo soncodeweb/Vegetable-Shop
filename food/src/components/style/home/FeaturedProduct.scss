@@ -1,0 +1,29 @@
+.featuredProducts-wrapper {
+  margin-top: 60px;
+  .container {
+    .title-featuredProducts {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      h2 {
+        font-size: 44px;
+        font-weight: 500;
+        color: #222;
+        line-height: 50px;
+      }
+      h6 {
+        font-size: 16.2px;
+        font-weight: 400;
+        line-height: 35px;
+      }
+      &:after {
+        content: "";
+        width: 55px;
+        height: 1px;
+        border-bottom: 2px solid #333;
+      }
+    }
+  }
+}

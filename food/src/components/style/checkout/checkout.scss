@@ -1,0 +1,248 @@
+@import "../flex";
+.order-wrapper {
+  background-color: white;
+  position: relative;
+  .container {
+    .title-order-wrapper {
+      position: relative;
+      // position: relative;
+      width: 1519px;
+      left: -210px;
+      img {
+        border-radius: 5px;
+        height: 100%;
+      }
+      .title-order {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        h3 {
+          font-size: 2.1429em;
+          color: #222;
+        }
+        ul {
+          margin-top: 15px;
+          li {
+            a {
+              display: inline-block;
+              color: #666;
+              padding: 0px 20px;
+              transition: all 0.5s;
+              &:hover {
+                color: #40a944;
+              }
+            }
+            .order {
+              color: #40a944;
+            }
+          }
+        }
+      }
+    }
+    .content-order-wrapper {
+      display: flex;
+      padding: 50px 15px;
+      margin: 50px 0px;
+      justify-content: space-between;
+      background-color: #f4f4f4;
+      border-radius: 10px;
+      .content-order {
+        width: 64%;
+        padding: 0px 40px 0px 0px;
+        // background-color: wheat;
+        .infor-title {
+          font-weight: 600;
+          font-size: 25px;
+          color: #595959;
+          padding: 10px 10px;
+          margin-bottom: 20px;
+          border: 1px solid transparent;
+          border-radius: 15px;
+          background-color: #fff;
+        }
+        .infor-order {
+          // background-color: #fff;
+
+          // display: grid;
+          // // justify-content: space-around;
+          // grid-template-columns: 1fr 1fr;
+          .title {
+            display: block;
+            padding: 10px 5px;
+            font-weight: 400;
+          }
+          input {
+            width: 300px;
+            border: 1px solid transparent;
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 10px 5px 10px 15px;
+            margin-left: 10px;
+            // color: #40a944;
+            font-weight: 400;
+            color: #666;
+            &::placeholder {
+            }
+          }
+          .user-name {
+            .title-name {
+            }
+            .input-name {
+            }
+          }
+          .user-phoneNumber {
+            .title-phoneNumber {
+            }
+            .input-phoneNumber {
+            }
+          }
+
+          .user-ward {
+            .title-ward {
+            }
+            .input-ward {
+            }
+          }
+        }
+        .infor-checkout {
+          padding: 20px 5px;
+          // width: 100%;
+          // display: flex;
+          // justify-content: center;
+          // transform: translateX(-15%);
+          .title-checkout {
+            // display: block;
+            // padding: 10px 5px;
+            color: #222;
+            font-weight: 700;
+            margin-right: 30px;
+            font-size: 18px;
+          }
+          select {
+            // width: 50%;
+            // text-align: center;
+            margin-left: 5px;
+            padding: 10px 15px;
+            border-radius: 5px;
+            color: #666;
+            option {
+              border-radius: 5px;
+            }
+          }
+        }
+        .btn {
+          border: 1px solid transparent;
+          padding: 10px 5px;
+          display: flex;
+          justify-content: space-around;
+          .btn-order {
+            width: 200px;
+            padding: 10px 70px;
+            margin: 0 20px;
+            background-color: #222;
+            transition: all 0.5s;
+            color: #fff;
+            font-weight: 600;
+            border-radius: 5px;
+            &:hover {
+              background-color: #28a745;
+            }
+          }
+          .btn-return {
+            width: 200px;
+            padding: 10px 20px;
+            margin: 0 20px;
+            background-color: #222;
+            transition: all 0.5s;
+            color: #fff;
+            font-weight: 600;
+            border-radius: 5px;
+            &:hover {
+              background-color: #28a745;
+            }
+          }
+        }
+      }
+      .order {
+        width: 36%;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 10px;
+        .title-order {
+          cursor: pointer;
+          padding: 10px 0px;
+          font-weight: 700;
+          font-size: 18px;
+        }
+        .product-list {
+          // padding: 10px 0px;
+          cursor: pointer;
+          .product {
+            // display: flex;
+            // justify-content: space-between;
+            display: flex;
+            justify-content: space-;
+            .image {
+              width: 48%;
+              display: flex;
+              justify-content: center;
+              .image-product {
+                width: 100px;
+                height: 100px;
+                border-radius: 5px;
+              }
+            }
+            .infor {
+              width: 52%;
+
+              padding: 10px 0px;
+              .infor-name {
+                font-weight: 600;
+                font-size: 18px;
+              }
+              .infor-shortDesc {
+                font-weight: 500;
+                font-size: 16px;
+                padding: 3px 0px;
+              }
+              .cost {
+                .price {
+                  font-weight: 700;
+                  color: #222;
+                }
+                .multiply {
+                  padding: 0 5px;
+                  font-weight: 300;
+                  color: #666;
+                }
+                .quantity {
+                  color: #666;
+                }
+              }
+            }
+          }
+        }
+        .total {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 15px;
+          padding: 0px 10px;
+          .total-title {
+            font-weight: 500;
+            font-size: 22px;
+          }
+          .total-money {
+            font-weight: 600;
+            font-size: 24px;
+            color: #28a745;
+          }
+        }
+      }
+    }
+  }
+}
