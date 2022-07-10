@@ -1,0 +1,19 @@
+Hướng dẫn phát triễn dự website bán hàng:
+I) Phân tích dự án
+II) Thiết kế database
+III) Triển khai dự án
+
+Yêu cầu: 
+Công nghệ sử dụng:
+    Frontend: 
+        - HTML/CSS/JS
+        - REACTJS
+    Backend:
+        - PHP/MYSQL
+Chức năng nổi bật trong dự án:
+    - Thiết kế website bán hàng chuẩn -> Đáp ứng yêu cầu thực tế của website bán hàng.
+    - Ajax trong dự án
+    - Cookie/Session trong dự án
+    - Tải hình ảnh lên server
+    - LocalStorage
+    - Thư viện soạn thảo nội dung (summernote)
