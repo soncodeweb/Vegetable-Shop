@@ -1,0 +1,44 @@
+.banner-with-text {
+  padding: 50px 0px;
+  .container {
+    margin-top: 50px;
+    .row {
+      .banner-with-text-columm {
+        position: relative;
+        img {
+          width: 100%;
+        }
+        .item-shop {
+          h3 {
+            color: #464646;
+            font-size: 24px;
+            padding: 0px 0px 15px 0px;
+            // background-color: transparentize($color: #000000, $amount: 0) !important;
+          }
+          a {
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+            color: #222;
+            font-size: 15px;
+            i {
+              margin-left: 5px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              color: #fff;
+              font-size: 5px;
+              width: 13px;
+              height: 13px;
+              border-radius: 50%;
+              background-color: #40a944;
+            }
+          }
+          top: 60px;
+          left: 50px;
+          position: absolute;
+        }
+      }
+    }
+  }
+}

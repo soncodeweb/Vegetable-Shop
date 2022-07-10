@@ -1,0 +1,37 @@
+.policy-wrap {
+  .container {
+    .policy-content {
+      border-bottom: 1px solid #e7e7e7;
+      .row {
+        display: flex;
+        margin: 25px 0px;
+        .item {
+          background-color: #ffffff !important;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          i {
+            color: #28a745;
+            font-size: 35px;
+            margin-bottom: 20px;
+          }
+          h4 {
+            line-height: 45px;
+            font-size: 1.1429em;
+            color: #222;
+            font-weight: 600;
+          }
+          h6 {
+            font-size: 1em;
+            margin: 0;
+            font-weight: 400;
+            color: #666;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}

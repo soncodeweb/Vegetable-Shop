@@ -1,0 +1,48 @@
+.black-friday {
+  position: relative;
+  height: 440px;
+  .container {
+    .item-friday {
+      position: absolute;
+      top: 100px;
+      z-index: 10;
+      h5 {
+        font-size: 20px;
+        color: #40a944;
+        margin-bottom: 20px;
+      }
+      h2 {
+        color: #222;
+        font-size: 54px;
+        line-height: 1;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 32px;
+        font-weight: 400;
+        margin-bottom: 40px;
+        color: #999;
+      }
+      .discover {
+        cursor: pointer;
+        span {
+          background-color: #40a944;
+          width: 165px;
+          border-radius: 22px;
+          padding: 15px 25px;
+          font-weight: 700;
+          color: #fff;
+          font-size: 16.5px;
+        }
+      }
+    }
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      object-fit: cover;
+      height: 440px;
+    }
+  }
+}

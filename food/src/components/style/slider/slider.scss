@@ -1,0 +1,42 @@
+.item {
+  position: relative;
+  background-color: #f4f4f4;
+  .content-item {
+    position: absolute;
+    top: 110px;
+    left: 300px;
+    .name-item {
+      font-size: 40px;
+      color: #222222;
+      font-weight: 600;
+    }
+    .item-type {
+      font-size: 30px;
+      color: #222222;
+      font-weight: 600;
+    }
+  }
+  .item-infor {
+    width: 415px;
+    color: #555555;
+    margin-bottom: 40px;
+  }
+  .shop-now {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding-left: 24px;
+    border-radius: 22px;
+    padding-right: 24px;
+    line-height: 35px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 13px;
+    color: white;
+    background-color: #40a944;
+    border-radius: 20px;
+    transition: all 0.5s;
+    &:hover {
+      background-color: #222;
+    }
+  }
+}

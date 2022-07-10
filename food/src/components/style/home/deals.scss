@@ -1,0 +1,29 @@
+.deals-of-the-weeks-wrap {
+  .container {
+    .title-deals-of-the-weeks {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      h2 {
+        font-size: 40px;
+        color: #222;
+        font-weight: 400;
+        margin-bottom: 15px;
+      }
+      h6 {
+        font-size: 14px;
+        color: #888;
+        font-weight: 400;
+        margin-bottom: 20px;
+      }
+      &::after {
+        content: "";
+        width: 55px;
+        height: 1px;
+        border-bottom: 2.5px solid black;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
